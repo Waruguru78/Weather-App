@@ -7,6 +7,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100vh;
+  color: #e5e5ea;
 }
 
 /* App Styles */
@@ -18,7 +20,7 @@ body {
 }
 
 .App-header {
-  background-image: linear-gradient(to right, #1708e6, #4CAF50); 
+  background-image: linear-gradient(to right, #1708e6, #4eb4d3); 
   color: white;
   padding: 20px 0;
 }
@@ -115,10 +117,8 @@ button:hover {
 .footer {
   margin-top: 20px;
   padding: 10px;
-  background-color: #333;
   color: white;
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-image: linear-gradient(to right, #333, #444);
 }
